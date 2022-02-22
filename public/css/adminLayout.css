@@ -1,0 +1,68 @@
+
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    min-height: 750px;
+}
+
+abbr[title] {
+    border-bottom: none !important;
+    cursor: inherit !important;
+    text-decoration: none !important;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: inherit;
+    border-radius: 4px;
+}
+
+.breadcrumb > li + li:before {
+    content: '>\A0';
+}
+
+.dropdown-menu table {
+    direction: ltr !important;
+}
+
+.datepicker-plot-area {
+    box-sizing: border-box;
+    overflow: hidden;
+    min-height: 70px;
+    display: block;
+    width: 260px;
+    padding: 0 5px;
+    position: absolute;
+    top: 100px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    z-index: 999;
+}
+
+.select2-container--default .select2-selection--single {
+    background-color: #fff !important;
+    border: 1px solid #aaa !important;
+    border-radius: 4px !important;
+    height: 32px !important;
+    direction: rtl !important;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    display: block !important;
+    padding-left: 8px !important;
+    padding-right: 0px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+}
+
+.alertify-notifier.ajs-right {
+    right: -260px;
+}
